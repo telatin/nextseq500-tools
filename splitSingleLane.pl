@@ -8,7 +8,7 @@ my $out_dir = './';
 my $optSuccess = GetOptions('o|output-directory=s' => \$out_dir);
 our $version = "1.00";
 print STDERR "
-  NextSeq Split Lanes v. $version - BMR Genomics
+  NextSeq Split Lanes v. $version 
  --------------------------------------------------------
  This program split a single NextSeq 500 FASTQ file into
  four files (one per virtual lane).
